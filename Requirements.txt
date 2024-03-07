@@ -1,0 +1,5 @@
+Python ==3.6.6
+face_recognition 
+opencv-python ==3.4.0.12
+numpy
+dlib

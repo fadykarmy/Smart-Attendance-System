@@ -1,4 +1,0 @@
-Python 3.6.6
-face_recognition 
-OpenCV 
-Dlib
