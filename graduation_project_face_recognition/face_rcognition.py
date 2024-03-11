@@ -7,15 +7,15 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-obama_image = face_recognition.load_image_file("obama.jpg")
+obama_image = face_recognition.load_image_file("img/obama.jpg")
 obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
-biden_image = face_recognition.load_image_file("biden.jpg")
+biden_image = face_recognition.load_image_file("img/biden.jpg")
 biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
-fady_image = face_recognition.load_image_file("fady.jpg")
+fady_image = face_recognition.load_image_file("img/fady.jpg")
 fady_face_encoding = face_recognition.face_encodings(fady_image)[0]
 
 
